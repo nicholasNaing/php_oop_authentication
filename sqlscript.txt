@@ -1,0 +1,6 @@
+CREATE TABLE 'Users (
+    Username VARCHAR(30),
+    Email VARCHAR(100) PRIMARY KEY,
+    Password VARCHAR(100),
+    Birthday DATE
+);
